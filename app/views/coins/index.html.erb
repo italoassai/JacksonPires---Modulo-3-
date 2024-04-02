@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Coins</h1>
+
+<div id="coins">
+  <% @coins.each do |coin| %>
+    <%= render coin %>
+    <p>
+      <%= link_to t("links.show"), coin , class:"btn btn-primary" %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to t("links.new_coin"), new_coin_path, class:"btn btn-primary" %>

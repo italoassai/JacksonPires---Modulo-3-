@@ -1,0 +1,7 @@
+pt-BR:
+  welcome: "Seja Bem vindo"
+  lead: "Esse é o Crypto Wallet, um app para você acompanhar as suas moedas."
+  options: "Para começar selecione uma das opções abaixo:"
+  new coin: "Criar nova moeda"
+  coin: "Moedas"
+  mining_type: "Tipos de moeda"
